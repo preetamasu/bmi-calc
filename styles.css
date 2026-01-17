@@ -1,0 +1,62 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: rgb(185, 172, 185);
+}
+.height {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+.weight {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+    padding: 30px;
+    gap: 15px;
+    border-radius: 12px;
+background: linear-gradient(to bottom, #e8daef, #d2b4de);}
+input[type="number"]{
+    padding: 12px 15px;
+    font-size: 1.2rem;
+    border: 2px solid black;
+    border-radius: 10px;
+    font-weight: bold;
+    background-color: transparent;
+    width: auto;
+    outline: none;
+}
+input[type="number"]:focus{
+    border-color: #667eea;
+}
+label{
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+#btn{
+    padding: 14px;
+    background: linear-gradient(135deg, #667eea, #764ba2);
+    border-radius: 10px;
+    font-size: 1.5rem;
+    color: white;
+    cursor: pointer;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: none;
+    transition: all 0.3s ease;
+}
+#btn:hover{
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(102, 126, 234, 0.4);
+}
+h4{
+    font-size: 1.5rem;
+    font-weight: bold;
+}
