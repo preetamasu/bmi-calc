@@ -1,0 +1,36 @@
+body{
+    margin: 0;
+    background-color: antiquewhite;
+    
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 90vh;
+    padding: 10px;
+
+}
+
+.counter-box {
+    border: 2px solid black;
+    padding: 30px;
+    border-radius: 15px;
+    text-align: center;
+}
+h1{
+    font-size: 4.5rem;
+
+}
+span{
+    font-size: 3.6rem;
+    margin-bottom: 15px;
+}
+.btn{
+    margin: 30px;
+    font-size: 1.25rem;
+    padding: 10px;
+    border-radius: 15px;
+    cursor: pointer;
+}
