@@ -35,10 +35,6 @@ btn.addEventListener("click",(event)=>{
        height.value= "";
     weight.value = "";
     },2000);
-    // setTimeout(()=>{
-    //     read.value = "";
-    //     span
-    // })
  
 })
 
